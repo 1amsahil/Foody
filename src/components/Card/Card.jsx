@@ -54,7 +54,9 @@ export default function Card({name, image, id, price, type}) {
                     </div>
                 </div>
 
-                <button className="add-item-btn" onClick={handleAddDispatch}> Add Item</button>
+                <div className="btn-container">
+                    <button className="add-item-btn" onClick={handleAddDispatch}> Add Item</button>
+                </div>
 
             </div>
 
