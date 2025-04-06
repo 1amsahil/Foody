@@ -1,0 +1,26 @@
+.category
+{
+    padding: 0px 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 50px;
+}
+
+.category:hover
+{
+    background-color: hsl(35, 85%, 60%);
+    color: white;
+
+    transition: ease 0.25s;
+}
+
+.category-name
+{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+}
