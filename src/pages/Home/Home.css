@@ -20,11 +20,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 3vw;
 
     flex-wrap: wrap;
 }
 .food-items::-webkit-scrollbar 
 {
     display: none;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .category-container
+    {
+        height: 60px;
+        width: 96%;
+
+        margin: auto;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        overflow: auto;
+        overflow-y: hidden;
+    }
+
+    .food-items
+    {
+        height: 120%;
+        width: 80%;
+        margin: 20px 30px;
+    
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+
+    }
 }

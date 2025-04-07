@@ -38,7 +38,7 @@ export default function CartCard({id, name, image, price, qty }) {
           </div>
         </div>
 
-        <div>
+        <div className="price-delete-container" >
           <span className="item-price"><label>Rs {price}/-</label></span>
           <div  className="delete-container">
             <MdDeleteForever className="delete-btn" onClick={handleDeleteItem} />

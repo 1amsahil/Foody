@@ -86,3 +86,35 @@
    color: hsl(0, 68%, 50%);
    cursor: pointer;
 }
+
+
+@media screen and (max-width: 600px) {
+    .cart-card
+    {
+        margin: 15px;
+        height: 35vh;
+
+        display: block;
+        justify-content: none;
+        align-items: none;
+        gap: 2.5vw;
+    }
+
+    .cart-card img
+    {
+        margin: 10px 30px;
+    }
+
+    .item-container
+    {
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+    .price-delete-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

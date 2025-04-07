@@ -3,6 +3,7 @@
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
 
     width: 40vw;
     height: 100%;
@@ -143,4 +144,74 @@
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 500;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .cart-sidebar
+    {
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        width: 30vh;
+        height: 100%;
+
+        background-color: white;
+        border: 2px solid #4444;
+    }
+
+    .cart-header
+    {
+        margin: 10px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .side-cart
+    {
+        max-height: 38vh;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .bill
+    {
+        height: 15vh;
+        margin: 5px;
+    }
+
+    .bill-content
+    {   
+        display: flex;
+        align-items: center;
+        gap: 2vh;
+
+        margin: 10px 5px;
+    }
+
+    .bill-type
+    { 
+        width: 12vh;
+    }
+
+    .total-bill 
+    {
+        margin: 0px 10px;
+        
+        display: flex;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    .placeorder-btn
+    {
+        width: 80%;
+        margin: 20px 10px;
+        padding: 7px 5px;
+    }
 }

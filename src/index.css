@@ -13,4 +13,5 @@
 body
 {
     background-color: hsl(185, 100%, 95%);
+    overflow-x: hidden;
 }
