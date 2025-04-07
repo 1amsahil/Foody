@@ -15,15 +15,15 @@ const CategoriesData = [
     },
     {
         id : 2,
-        name : "Breakfast",
-        category : "breakfast",
-        icon : <img src={Breakfast} alt="Breakfast" height={"50vh"} />,
-    },
-    {
-        id : 3,
         name : "Soup",
         category : "soup",
         icon : <img src={Soup} alt="Soup" height={"50vh"} />,
+    },
+    {
+        id : 3,
+        name : "Breakfast",
+        category : "breakfast",
+        icon : <img src={Breakfast} alt="Breakfast" height={"50vh"} />,
     },
     {
         id : 4,
